@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="../assets/styles/registration.css" />
+  </head>
+  <body>
+    <section class="registration">
+      <div class="container">
+        <form action="#" class="wrapper">
+          <div class="title">
+            <h2>Registration</h2>
+          </div>
+          <div class="form">
+            <div class="first">
+              <label for="name">
+                <span>Full Name</span>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </label>
+              <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" placeholder="Enter your email" />
+              </label>
+              <label for="password">
+                <span>Password</span>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter your password"
+                />
+              </label>
+            </div>
+            <div class="second">
+              <label for="username">
+                <span>Username</span>
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Enter your username"
+                />
+              </label>
+              <label for="phone-number">
+                <span>Phone Number</span>
+                <input
+                  type="tel"
+                  id="phone-number"
+                  placeholder="Enter your number"
+                />
+              </label>
+              <label for="confirm-password">
+                <span>Confirm Password</span>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  placeholder="Confirm your password"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="second-title">
+            <h3>Gender</h3>
+          </div>
+          <div class="genders">
+            <label for="male">
+              <input type="radio" name="gender" id="male" />
+              <span class="radio-mark"></span><span>Male</span>
+            </label>
+            <label for="female">
+              <input type="radio" name="gender" id="female" />
+              <span class="radio-mark"></span><span>Female</span>
+            </label>
+            <label for="pnts">
+              <input type="radio" name="gender" id="pnts" />
+              <span class="radio-mark"></span><span>Prefer not to say</span>
+            </label>
+          </div>
+          <button class="btn">Register</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
